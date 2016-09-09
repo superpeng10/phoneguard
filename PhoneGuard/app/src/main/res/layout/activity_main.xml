@@ -1,16 +1,94 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:pcc="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.android.pcc.phoneguard.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
+    >
+
+     <android.support.v4.view.ViewPager
+         android:id="@+id/viewpager"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent">
+
+     </android.support.v4.view.ViewPager>
+
+     <LinearLayout
+         android:id="@+id/ll_tabs"
+         android:layout_width="match_parent"
+         android:layout_height="100dp"
+         android:layout_alignParentBottom="true"
+         android:orientation="horizontal"
+         >
+          <com.android.pcc.phoneguard.view.IconTextView
+              android:layout_width="0dp"
+              android:layout_height="match_parent"
+              android:layout_weight="1"
+              android:layout_margin="10dp"
+              android:padding="10dp"
+              pcc:image="@drawable/bottombar_home_normal"
+              pcc:imageScaleType="center"
+              pcc:titleText="@string/bottom_home"
+              pcc:customTextColor="#000000"
+              pcc:titleTextSize="12sp"
+
+              />
+          <com.android.pcc.phoneguard.view.IconTextView
+              android:layout_width="0dp"
+              android:layout_height="match_parent"
+              android:layout_weight="1"
+              android:layout_margin="10dp"
+              android:padding="10dp"
+              pcc:image="@drawable/bottombar_game_normal"
+              pcc:imageScaleType="center"
+              pcc:titleText="@string/bottom_game"
+              pcc:customTextColor="#000000"
+              pcc:titleTextSize="12sp"
+
+              />
+          <com.android.pcc.phoneguard.view.IconTextView
+              android:layout_width="0dp"
+              android:layout_height="match_parent"
+              android:layout_weight="1"
+              android:layout_margin="10dp"
+              android:padding="10dp"
+              pcc:image="@drawable/bottombar_software_normal"
+              pcc:imageScaleType="center"
+              pcc:titleText="@string/bottom_soft"
+              pcc:customTextColor="#000000"
+              pcc:titleTextSize="12sp"
+
+              />
+          <com.android.pcc.phoneguard.view.IconTextView
+              android:layout_width="0dp"
+              android:layout_height="match_parent"
+              android:layout_weight="1"
+              android:layout_margin="10dp"
+              android:padding="10dp"
+              pcc:image="@drawable/bottombar_appgroup_normal"
+              pcc:imageScaleType="center"
+              pcc:titleText="@string/bottom_app_social"
+              pcc:customTextColor="#000000"
+              pcc:titleTextSize="12sp"
+
+              />
+          <com.android.pcc.phoneguard.view.IconTextView
+              android:layout_width="0dp"
+              android:layout_height="match_parent"
+              android:layout_weight="1"
+              android:layout_margin="10dp"
+              android:padding="10dp"
+              pcc:image="@drawable/bottombar_manager_normal"
+              pcc:imageScaleType="center"
+              pcc:titleText="@string/bottom_manager"
+              pcc:customTextColor="#000000"
+              pcc:titleTextSize="12sp"
+
+              />
+
+
+
+
+     </LinearLayout>
 </RelativeLayout>
