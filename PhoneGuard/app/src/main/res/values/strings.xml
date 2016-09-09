@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">PhoneGuard</string>
+    <string name="bottom_app_social">应用圈</string>
+    <string name="bottom_game">游戏</string>
+    <string name="bottom_home">推荐</string>
+    <string name="bottom_manager">管理</string>
+    <string name="bottom_soft">软件</string>
 </resources>
