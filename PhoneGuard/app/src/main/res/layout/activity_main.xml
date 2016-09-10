@@ -22,6 +22,7 @@
          android:orientation="horizontal"
          >
           <com.android.pcc.phoneguard.view.IconTextView
+              android:id="@+id/buttom_home"
               android:layout_width="0dp"
               android:layout_height="match_parent"
               android:layout_weight="1"
@@ -35,6 +36,7 @@
 
               />
           <com.android.pcc.phoneguard.view.IconTextView
+              android:id="@+id/button_game"
               android:layout_width="0dp"
               android:layout_height="match_parent"
               android:layout_weight="1"
@@ -48,6 +50,7 @@
 
               />
           <com.android.pcc.phoneguard.view.IconTextView
+              android:id="@+id/button_soft"
               android:layout_width="0dp"
               android:layout_height="match_parent"
               android:layout_weight="1"
@@ -61,6 +64,7 @@
 
               />
           <com.android.pcc.phoneguard.view.IconTextView
+              android:id="@+id/button_app"
               android:layout_width="0dp"
               android:layout_height="match_parent"
               android:layout_weight="1"
@@ -74,6 +78,7 @@
 
               />
           <com.android.pcc.phoneguard.view.IconTextView
+              android:id="@+id/button_manager"
               android:layout_width="0dp"
               android:layout_height="match_parent"
               android:layout_weight="1"
