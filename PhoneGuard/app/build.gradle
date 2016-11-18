@@ -19,7 +19,7 @@ android {
     }
     sourceSets {
         main {
-            res.srcDirs = ['src/main/res', 'src/main/res/values-zh-rCN', 'src/main/res/drawable-nodpi']
+            res.srcDirs = ['src/main/res', 'src/main/res/values-zh-rCN', 'src/main/res/drawable-nodpi', 'src/main/res/drawable-hdpi']
         }
     }
 }
